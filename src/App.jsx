@@ -22,6 +22,7 @@ import Login from './Authentication/Login'
 import Signup from './Authentication/Signup'
 import ForgotPass from './Authentication/ForgotPass'
 import ResetPassOtp from './Authentication/ResetPassOtp'
+import ResetSuccess from './Authentication/ResetSuccess'
 
 // import CheckAvailabilityForm from './HallPages/CheckAvailabilityForm'
 // import HallBookingForm from './HallPages/HallBookingForm'
@@ -48,6 +49,7 @@ const App = () => {
         <Route path='Signup' element={<Signup />} />  
         <Route path='ForgotPass' element={<ForgotPass/>} />
         <Route path='ResetPassOtp' element={<ResetPassOtp/>} />
+        <Route path='ResetSuccess' element={<ResetSuccess/>}/>
         
          {/* Hall bookibg routesss */}
 
