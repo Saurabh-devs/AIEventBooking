@@ -119,7 +119,7 @@ const EmailOtp = () => {
 
     // If OTP is filled, form will pass validation
     console.log("OTP Submitted ✅");
-    navigate("/Login");
+    navigate("/Dashboard");
   };
 
 
